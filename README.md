@@ -10,6 +10,7 @@ challenge by contino
    2- upload the template script file "cf-template_ver1.yaml"
 
 == Through the command line
+example:
 aws cloudformation create-stack --stack-name challengestack --template-body file://cf-template_ver1.yaml --parameters ParameterKey=MyName,ParameterValue=RamezElkomos ParameterKey=Mobilenum,ParameterValue=+61421762395
 
 # Above script will take 3 parameters 
